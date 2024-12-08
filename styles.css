@@ -14,6 +14,8 @@ body {
 }
 
 
+/* header is start  */
+
 #header-content {
     width: 1400px;
     height: 674px;
@@ -38,6 +40,9 @@ body {
     color: #FFF;
 }
 
+/* header is end  */
+
+/* main  is start  */
 #subscribe {
     width: 1137px;
     height: 350px;
@@ -108,59 +113,89 @@ body {
     color: #535862;
 }
 
-#submit-forms {
-    width: 482px;
-    height: 172px;
+/* main is end  */
 
-    margin-top: 19px;
-    margin-left: 32px;
+/* footer is start  */
+
+footer {
+    width: 100%;
+    height: 809px;
+    
 }
 
-#form-container {
+footer #footer-content {
+    display: inline-block;
     width: 546px;
     height: 638px;
     border-radius: 24px;
     background: #EBF8FE;
-    margin: 72px auto;
+    margin-top: 72px;
+    margin-left: 570px;
+
 }
 
-#forms-title {
+#footer-heading {
     display: inline-block;
-    color: #181D27;
-    font-family: "Inria Sans", sans-serif;
-    font-size: 40px;
+    width: 216px;
+    height: 60px;
+    
     margin-top: 40px;
     margin-left: 32px;
+
+    color: #181D27;
+    font-size: 40px;
+    font-family: "Inria Sans", sans-serif;
     font-weight: 700;
+    letter-spacing: -0.8px;
 }
 
-#submit-forms input {
+#email-forms {
+    width: 482px;
+    height: 172px;
+    margin-top: 24px;
+    margin-left: 32px;
+}
+
+#email-forms label {
+    font-family: "Inria Sans", sans-serif;
+    color: #1B003D;
+    font-size: 20px;
+}
+
+#email-forms input {
     width: 482px;
     height: 48px;
+    margin-top: 10px;
     border-radius: 8px;
     border: 1px solid #380054;
-    margin-top: 10px;
+
 }
 
-#submit-forms label {
-    display: inline-block;
-    width: 482px;
-    height: 30px;
+#radio-forms {
+    width: 338px;
+    height: 111px;
+   
+    margin-top: 24px;
+    margin-left: 32px;
+     
+}
+
+#radio-forms p {
     color: #1B003D;
     font-family: "Inria Sans", sans-serif;
-    font-size: 20px;
-    align-items: center;
-    padding: 20px 20px;
-  
-
-
+    font-size: 14px;
 }
 
-#submit-forms input::placeholder {
-    padding-left: 20px;
+#radio-forms label {
+    
     color: #6D5F8B;
     font-family: "Inria Sans", sans-serif;
     font-size: 14px;
-   
-    /* 157.143% */
+    width: 338px;
+    height: 22px;  
 }
+#radio-forms   input{
+    margin-top: 10px;
+}
+
+/* footer is end  */
